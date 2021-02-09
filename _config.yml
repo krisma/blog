@@ -4,10 +4,10 @@ email:
 description: ''
 twitter_username: username
 github_username: username
-minimal_mistakes_skin: default
+minimal_mistakes_skin: dark
 search: true
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes@4.22.0"
+remote_theme: mmistakes/minimal-mistakes@4.22.0
 permalink: "/:categories/:title/"
 paginate: "5"
 paginate_path: "/page:num/"
@@ -44,7 +44,7 @@ footer:
     url: https://instagram.com/
 defaults:
 - scope:
-    path: ""
+    path: ''
     type: posts
   values:
     layout: single
@@ -54,7 +54,7 @@ defaults:
     share: true
     related: true
 - scope:
-    path: ""
+    path: ''
     type: pages
   values:
     layout: single
