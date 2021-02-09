@@ -44,7 +44,7 @@ footer:
     url: https://instagram.com/
 defaults:
 - scope:
-    path: ''
+    path: _posts
     type: posts
   values:
     layout: single
