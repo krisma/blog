@@ -21,7 +21,5 @@ group :jekyll_plugins do
   gem "jemoji"
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
-end
-group :jekyll_plugins do
   gem "jekyll-archives"
 end
